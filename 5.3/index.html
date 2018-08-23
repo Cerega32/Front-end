@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="app">
+        <input type="text" v-model="message">
+        <p>{{ message }}</p>
+    </div> -->
+
+    <!-- <div id="app">
+        <input type="checkbox" v-model="checked">
+        <p>{{ checked }}</p>
+    </div> -->
+
+    <!-- <div id="app">
+        <label><input type="radio" value="First" v-model="picked"> Первый</label>
+        <label><input type="radio" value="Second" v-model="picked"> Второй</label>
+        <p>{{ picked }}</p>
+    </div> -->
+
+    <div id="app">
+        <select v-model="language">
+            <option>JS</option>
+            <option>Python</option>
+            <option>C++</option>
+        </select>
+        <p>Язык: {{ language }}</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

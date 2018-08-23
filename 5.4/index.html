@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <div>
+            <input type="number" v-model="n">
+            <p>Удвоенное число: {{ n * 2 }}</p>
+        </div>
+        <div>
+            <input type="checkbox" v-model="checked">
+            <p> {{ checked ? "Yes" : "No" }}</p>
+        </div>
+        <div>
+            <input type="text" v-model="message">
+            <p>{{ message.split("").reverse().join("") }}</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

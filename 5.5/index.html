@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div id="app">
+        <input type="text" v-model="query">
+        <a v-bind:href="'https://google.com/search?q=' + query">Искать</a>
+    </div> -->
+
+    <!-- <div id="app">
+        <label>
+            <input type="checkbox" v-model="headerStyle.blue"> Синий
+        </label>
+        <label>
+            <input type="checkbox" v-model="headerStyle.underlined"> Подчеркнутый
+        </label>
+        <h1 v-bind:class="{ 'header--blue': headerStyle.blue,
+        'header--underlined': headerStyle.underlined }">
+            Заголовок
+        </h1>
+    </div> -->
+
+    <div id="app">
+        <input type="range" v-model="sizeFactor" min="1" max="5" step="0.1">
+        <p v-bind:style="{ 'font-size': sizeFactor + 'em' }">Текст</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
