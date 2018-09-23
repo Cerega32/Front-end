@@ -1,0 +1,30 @@
+[
+    {
+        "number": 1,
+        "text": "Quote1"
+    },
+    {
+        "number": 2,
+        "text": "Quote2"
+    },
+    {
+        "number": 3,
+        "text": "Quote3"
+    },
+    {
+        "number": 4,
+        "text": "Quote4"
+    },
+    {
+        "number": 5,
+        "text": "Quote5"
+    },
+    {
+        "number": 6,
+        "text": "Quote6"
+    },
+    {
+        "number": 7,
+        "text": "Quote7"
+    }
+]

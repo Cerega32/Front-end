@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- <button type="button" v-on:click="double">Удвоить</button>
+        <p>{{ number }}</p> -->
+
+        <!-- <input type="text" v-model="thing" v-on:keydown="addItem($event)"> -->
+        <span>X<sup><small>2</small></sup> + </span>
+        <input type="number" v-model.number="b" v-on:change="draw">
+        <span>X + </span>
+        <input type="number" v-model.number="c" v-on:change="draw">
+        <span>= 0</span>
+        <p><span>D=</span>{{ b*b-4*c }}</p>
+        <p>{{ (b*b-4*c < 0) ? "Решений нет" : (b*b-4*c == 0) ? "x=" -b/2 : "x1=" + (-b-Math.sqrt(b*b-4*c))/2 + "; x2=" + (-b+Math.sqrt(b*b-4*c))/2 }}</p>
+        
+    </div>
+    <div id="plot">
+            <script src="https://unpkg.com/d3@3/d3.min.js"></script>
+            <script src="https://unpkg.com/function-plot@1/dist/function-plot.js"></script>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
